@@ -3,4 +3,6 @@ project(untitled1)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(untitled1 PointerDemo.cpp)
+add_executable(untitled1 PointerDemo.cpp
+        TicTacToe.cpp
+        TicTacToe.hpp)
